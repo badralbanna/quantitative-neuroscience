@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 module purge
-module load python/3.7.0 
-module load venv/wrap
+module load python/3.7.0 venv/wrap
 mkvirtualenv -p python py3-qn
 workon py3-qn
 pip install ipykernel
