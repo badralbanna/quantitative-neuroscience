@@ -112,6 +112,5 @@ if not os.path.exists(os.path.join("data", "behavioral_exp")):
 for n, s, ag, st, de in zip(animal_names, sex, age, strength, dexterity):
     file_name = f"{n}-p{int(ag)}.json"
     session = {'name': n, 'sex': s, 'age': ag, 'strength': st, 'dexterity': de}
-    print(session)
     with open(os.path.join("data", "behavioral_exp", file_name), 'w') as f:
         json.dump(session, f)
