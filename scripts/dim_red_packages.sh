@@ -11,9 +11,13 @@ mkdir packages
 cd packages
 git clone https://github.com/bantin/jPCA.git
 git clone https://github.com/BouchardLab/DynamicalComponentsAnalysis
+git clone https://github.com/pavanramkumar/pyglmnet
 
 cd jPCA 
 pip install -e .
 cd ../DynamicalComponentsAnalysis
 pip install -e .
+cd ../pyglmnet
+pip install -e .
+
 cd ../..
