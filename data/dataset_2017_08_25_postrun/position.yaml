@@ -1,0 +1,15 @@
+source: {path: /home/davide/Data/RealTimeReplayDetection/FM009/dataset_25_08_2017/2017-08-25_09-50-43/VT1.nvt,
+  epoch: null}
+tracking:
+  colors: [red, green]
+  orientation: 0
+regions:
+  enabled: false
+  include: []
+  exclude: []
+jumps: {enabled: true, size: 20, duration: 0.5}
+small_gaps: {enabled: true, gap_size: 0.1}
+diode_distance: {enabled: true, threshold: 1.5}
+missing_diode: {enabled: true, gap_size: 0.25}
+large_gaps: {enabled: true, gap_size: 0.5}
+behavior: {robust: true, velocity_smooth: 0.5, direction_smooth: 0.5}

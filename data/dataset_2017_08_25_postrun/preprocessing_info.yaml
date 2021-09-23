@@ -1,0 +1,21 @@
+DatasetID: 2017-08-25_09-50-43
+AddedDistance_pixel: 400
+ArmLength_cm: 110
+ConversionFactorPixelsToCm: 1.824
+NumTracks: 3
+SleepOnly: false
+Min amplitude: 0
+Min spiking rate: 0
+N tetrodes loaded: 14
+Percentile amplitude selection: 0
+excluded tetrodes:
+- 5
+- 6
+- 7
+- 8
+- 13
+- 15
+- 16
+- 17
+- 21
+- 23
