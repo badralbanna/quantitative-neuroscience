@@ -1,0 +1,8 @@
+bin_size_mua: 0.001
+max_allowable_gap: 0.02
+max_speed: 180
+min_duration_cand: 0.02
+mua_thr_std_H: 2.5
+mua_thr_std_L: 0.5
+smooth_mua_bw: 0.015
+span_ewma_detrend: 750
